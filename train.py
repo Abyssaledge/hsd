@@ -73,7 +73,7 @@ def parse_option():
     # io
     parser.add_argument('--resume', default='', type=str, metavar='PATH',
                         help='path to latest checkpoint (default: none)')
-    parser.add_argument('--print-freq', type=int, default=10, help='print frequency')
+    parser.add_argument('--print-freq', type=int, default=50, help='print frequency')
     parser.add_argument('--save-freq', type=int, default=20, help='save frequency')
     parser.add_argument('--output-dir', type=str, default='./output', help='output director')
 
